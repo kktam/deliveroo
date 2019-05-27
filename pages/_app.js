@@ -1,6 +1,6 @@
 /* /pages/_app.js */
 
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 import withData from "../lib/apollo";
 
 import App, { Container } from "next/app";
