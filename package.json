@@ -1,11 +1,13 @@
 {
   "scripts": {
     "build": "next build",
-    "dev": "next",
-    "now-build": "next build"
+    "dev": "node server.js",
+    "now-build": "next build",
+    "start": "NODE_ENV=production node server.js"    
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
     "gql": "^1.1.2",
     "graphql": "^14.3.1",
     "next": "^8.0.0",
