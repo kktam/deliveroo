@@ -17,6 +17,7 @@
     "react": "^16.7.0",
     "react-apollo": "^2.5.6",
     "react-dom": "^16.7.0",
+    "react-stripe-elements": "^3.0.0",
     "reactstrap": "^8.0.0",
     "recompose": "^0.30.0",
     "strapi-sdk-javascript": "^0.3.1"
