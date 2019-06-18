@@ -29,7 +29,7 @@ class Checkout extends Component {
       Router.push("/");
     }
     this.setState({
-      stripe: window.Stripe("pk_test_")
+      stripe: window.Stripe("pk_test_oxzn7RFuqoPBePvCAEj0xPMX00jRzOTK8v")
     });
   }
 

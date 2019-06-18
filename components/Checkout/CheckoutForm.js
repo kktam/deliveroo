@@ -40,6 +40,8 @@ class CheckoutForm extends React.Component {
     console.log(this.props.stripe.createToken())
     this.props.stripe.createToken()
     .then(res => {
+      console.log(res)
+
       strapi
         .createEntry("orders", {
           amount: context.total,
